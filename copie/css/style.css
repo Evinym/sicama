@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+main {
+    flex: 1 0 auto;
+}
+
+.Napp-sicama-h {
+    background-color: rgb(186, 206, 177);
+    border-radius: 3px;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    list-style: none;
+}
+.widewoz {
+    height: 350px;
+    width: 655px;
+    background-color: black;
+}
+.carditoz {
+    height: 350px;
+    width: 350px;
+}
+.the-logos {
+    height: 7.5vh;
+    width: 7.5vh;
+}
+.landingTextH1{
+    margin-top: 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #cccccc;
+    background-image: linear-gradient(#282c34, #4CAF50);
+    padding-top: 20px;
+}
+.landingTextH2{
+    margin-top: 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 250px;
+    width: 50%;
+    color: rgb(25, 180, 71);
+    background-color: #cccccc;
+    background-image: linear-gradient(#282c34, #4CAF50);
+    padding-top: 20px;
+}
+.landingTextH3{
+    margin-top: 20px;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 70px;
+    width: 50%;
+    color: white;
+    background-color: #cccccc;
+    background-image: linear-gradient(#282c34, #4CAF50);
+    padding-top: 20px;
+}
+.cardSicamaM{
+    height: 150px;
+    width: 15%;
+    margin: 3%;
+}
+.tableauDeBord{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sublimSurligne{
+    color: rgb(25, 180, 71);
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgb(25, 180, 71); /* Safari */  
+    text-decoration-color: rgb(25, 180, 71);
+  }
